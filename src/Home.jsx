@@ -307,7 +307,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className=" lg:mt-36 max-sm:mt-5 md:mt-8 max-sm:order-2">
+          <div className=" lg:mt-36 max-sm:mt-5 md:mt-8 max-sm:order-1">
             <p className="text-[#EA2029] flex items-center text-[24px]">
               Expert Language Training
               <GoArrowUpRight className="ps-2 pt-1" size={35} />
@@ -342,14 +342,14 @@ const Home = () => {
             "url('https://images.unsplash.com/20/cambridge.JPG?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dW5pdmVyc2l0eXxlbnwwfHwwfHx8MA%3D%3D')",
         }}
       >
-        <p className="font-semibold text-[40px] text-white">
+        <p className="font-semibold text-[40px] max-sm:text-[20px] text-white">
           Partnered with 30+ Top Universities
         </p>
-        <p className="text-white text-[18px] font-normal">
+        <p className="text-white text-[18px] max-sm:text-[13px]   font-normal">
           We’ve partnered with 30+ top universities to help you secure a
           successful future with global
         </p>
-        <p className="text-center text-white"> opportunities.</p>
+        <p className="text-center text-white max-sm:hidden"> opportunities.</p>
         <div className="w-full flex justify-center items-center py-10 backdrop-blur-md bg-[#e4e4e4]/15 shadow-[0px_10px_15px_10px_rgba(0,0,0,0.15)] overflow-hidden mt-5">
           <motion.div
             className="flex gap-12"
