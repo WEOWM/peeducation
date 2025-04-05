@@ -5,7 +5,7 @@ import Button from "../customButton/Button";
 const Header = () => {
   return (
     <div className="w-full h-20 border-b border-[#00000029] flex justify-between items-center lg:px-24  lg:fixed bg-white z-30  px-2">
-      <img src="src/assets/Logo.svg " className="max-sm:w-[151px]" alt="" />
+      <img src="/Logo.svg " className="max-sm:w-[151px]" alt="" />
       <div className=" space-x-[56px] lg:flex hidden">
         <p className="font-medium text-[16px] ">Programs</p>
         <p className="font-medium text-[16px] ">Destination</p>

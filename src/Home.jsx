@@ -28,6 +28,9 @@ const faqs = [
   { question: "Will I get support after I arrive?" },
 ];
 
+// images
+// import {logo} from '/public/Frame 90.png'
+
 const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
@@ -58,24 +61,24 @@ const Home = () => {
             </Button>
 
             <img
-              src="src/assets/Frame 90.png"
+              src="/Frame 90.png"
               className="absolute w-[800px] lg:right-1 lg:top-[400px] md:top-60 "
               alt=""
             />
 
             <div className="flex relative md:mt-5 lg:mt-5 max-sm:mt-4">
               <img
-                src="src/assets/Frame 4.png"
+                src="/Frame 4.png"
                 alt=""
                 className="w-[36px] h-[36px]"
               />
               <img
-                src="src/assets/Frame 5.png"
+                src="/Frame 5.png"
                 className="absolute left-4 max-sm:left-4 z-10 w-[36px] h-[36px]"
                 alt=""
               />
               <img
-                src="src/assets/Frame 6.png"
+                src="/Frame 6.png"
                 className="absolute left-8 max-sm:left-8 z-10 w-[36px] h-[36px]"
               />
               <span className="absolute left-20 top-1 font-normal md:text-[20px] text-[#EA2029]">
@@ -89,7 +92,7 @@ const Home = () => {
         </div>
         <div className="w-full flex justify-center md:justify-end lg:items-start md:mt-20 lg:pe-20 max-sm:order-1 ">
           <img
-            src="src/assets/unsplash_XkKCui44iM0.png"
+            src="/unsplash_XkKCui44iM0.png"
             className="lg:w-[600px] lg:h-[662px] md:w-[280px] md:h-[304px] object-cover rounded-[12px]"
             alt=""
           />
@@ -150,7 +153,7 @@ const Home = () => {
                 University Partnership
               </p>
               <img
-                src="src/assets/Vector (1).png"
+                src="/Vector (1).png"
                 className="absolute lg:w-[530px] lg:right-32 lg:top-8 md:w-[380px] md:right-[-50px] max-sm:w-[240px] max-sm:right-[-80px] max-sm:top-57 md:top-5"
                 alt=""
               />
@@ -167,7 +170,7 @@ const Home = () => {
                 Looking for the Best{" "}
               </p>
               <img
-                src="src/assets/Frame 32.png"
+                src="/Frame 32.png"
                 className="w-[108px] h-[64px] max-sm:w-[81px] max-sm:h-[48px]  object-cover animate-bounce"
                 alt=""
               />
@@ -191,19 +194,19 @@ const Home = () => {
           </Button>
         </div>
         <img
-          src="src/assets/Cloud 1.png"
+          src="/Cloud 1.png"
           className="lg:w-[610px] max-sm:w-[230px] md:w-[280px] absolute  left-0  max-sm:bottom-96 lg:bottom-72 md:bottom-48"
           alt=""
         />
         <img
-          src="src/assets/Cloud 2.png"
+          src="/Cloud 2.png"
           className="lg:w-[610px] max-sm:w-[230px] md:w-[280px] absolute  right-0 max-sm:bottom-64 lg:bottom-72 md:bottom-48"
           alt=""
         />
 
         <div className="w-full lg:h-[900px] md:h-[744px] bg-[#EA2029CC] grid lg:grid-cols-3 md:grid-cols-2 px-3 mt-70 lg:pt-10 lg:ps-10 p-0 m-0 ">
           <div className=" lg:w-[400px] text-white pt-7 ">
-            <img src="src/assets/Icon.png" alt="" />
+            <img src="/Icon.png" alt="" />
             <p className="mt-5 inter1">Top Universities</p>
             <p className="mt-5 max-sm:text-[14px] ">
               Learn from the best medical schools, globally recognized and
@@ -211,7 +214,7 @@ const Home = () => {
             </p>
           </div>
           <div className=" lg:w-[400px] text-white pt-7">
-            <img src="src/assets/Icon (1).png" alt="" />
+            <img src="/Icon (1).png" alt="" />
             <p className="mt-5 inter1">Top Universities</p>
             <p className="mt-5 max-sm:text-[14px]">
               Learn from the best medical schools, globally recognized and
@@ -219,7 +222,7 @@ const Home = () => {
             </p>
           </div>
           <div className=" lg:w-[400px] text-white pt-7">
-            <img src="src/assets/Icon (2).png" alt="" />
+            <img src="/Icon (2).png" alt="" />
             <p className="mt-5 inter1">Top Universities</p>
             <p className="mt-5 ">
               Learn from the best medical schools, globally recognized and
@@ -230,33 +233,33 @@ const Home = () => {
       </section>
 
       <div className="hidden lg:flex">
-      <section className="grid grid-cols-2  h-96 ">
-        <div className="flex flex-col justify-center items-center lg:px-10">
-          <p className="poppins-semibold text-[40px] flex">
-            Supporting Your <p className="text-[#EA2029CC] flex"> Journey </p>
-            Every Step
-          </p>
-          <p className="inter text-[18px]">
-            At PEF Education, our mission is to compassionately tailor the
-            educational journey for each student, irrespective of their chosen
-            direction, academic pursuits, or desired institution. With a team of
-            seasoned professionals at the helm, we provide personalized guidance
-            and unwavering support throughout the entire application process.
-            Our comprehensive suite of services spans from empathetic counseling
-            and meticulous course selection to seamless admissions
-          </p>
-        </div>
+        <section className="grid grid-cols-2  h-96 ">
+          <div className="flex flex-col justify-center items-center lg:px-10">
+            <p className="poppins-semibold text-[40px] flex">
+              Supporting Your <p className="text-[#EA2029CC] flex"> Journey </p>
+              Every Step
+            </p>
+            <p className="inter text-[18px]">
+              At PEF Education, our mission is to compassionately tailor the
+              educational journey for each student, irrespective of their chosen
+              direction, academic pursuits, or desired institution. With a team
+              of seasoned professionals at the helm, we provide personalized
+              guidance and unwavering support throughout the entire application
+              process. Our comprehensive suite of services spans from empathetic
+              counseling and meticulous course selection to seamless admissions
+            </p>
+          </div>
 
-        <div className="lg:px-10 flex flex-col justify-center items-center ">
-          <img src="src/assets/Frame 245.png" alt="" />
-        </div>
-      </section>
+          <div className="lg:px-10 flex flex-col justify-center items-center ">
+            <img src="/Frame 245.png" alt="" />
+          </div>
+        </section>
       </div>
 
       <section className="max-sm:mt-80 md:mt-16">
         <CarouselSection />
       </section>
-      {/* =================================== */}
+      
       <section className="grid lg:grid-cols-2 md:grid-cols-1 h-[37rem] px-3 max-sm:mt-15  lg:mt-0 lg:px-10 poppins-semibold ">
         <div className="lg:sticky top-20 self-start ">
           <div>
@@ -325,7 +328,7 @@ const Home = () => {
 
         <div className="flex justify-center lg:sticky top-20 self-start max-sm:order-1 md:order-1 lg:order-2">
           <img
-            src="src/assets/Img.png"
+            src="/Img.png"
             className="lg:w-[518px] lg:h-[518px] md:w-full md:h-[490px] object-fill"
             alt=""
           />
@@ -382,7 +385,7 @@ const Home = () => {
 
         <div className="grid lg:grid-cols-3 md:grid-cols-2 max-sm:grid-cols-1 gap-10 mt-10 px-4 w-full max-w-6xl">
           <div className="h-64  rounded-xl shadow-sm flex flex-col items-center justify-center text-lg font-medium bg-white">
-            <img src="src/assets/01.png " className="mt-10" alt="" />
+            <img src="/01.png " className="mt-10" alt="" />
             <p className="text-[#EA2029] font-semibold">Expert Consultation</p>
             <p className="lg:w-[383px] text-[12px] px-4 text-center">
               Our experienced counselors will listen to your goals and guide you
@@ -390,7 +393,7 @@ const Home = () => {
             </p>
           </div>
           <div className="h-64  rounded-xl shadow-sm flex flex-col items-center justify-center text-lg font-medium bg-white">
-            <img src="src/assets/02.png" className="mt-10" alt="" />
+            <img src="/02.png" className="mt-10" alt="" />
             <p className="text-[#EA2029] font-semibold">Expert Consultation</p>
             <p className="lg:w-[383px] text-[12px] px-4 text-center">
               Our experienced counselors will listen to your goals and guide you
@@ -398,7 +401,7 @@ const Home = () => {
             </p>
           </div>
           <div className="h-64  rounded-xl shadow-sm flex flex-col items-center justify-center text-lg font-medium bg-white ">
-            <img src="src/assets/03.png" className="mt-10" alt="" />
+            <img src="/03.png" className="mt-10" alt="" />
             <p className="text-[#EA2029] font-semibold">Expert Consultation</p>
             <p className="lg:w-[383px] text-[12px] px-4 text-center ">
               Our experienced counselors will listen to your goals and guide you
@@ -476,7 +479,7 @@ const Home = () => {
           </Button>
         </div>
         <img
-          src="src/assets/Frame 90q.png"
+          src="/Frame 90q.png"
           className="absolute lg:left-[40px] md:top-12 md:w-[820px] max-sm:top-30"
           alt=""
           srcset=""
@@ -486,7 +489,7 @@ const Home = () => {
       <footer className="bg-[#ED1F241F] lg:h-96 max-sm:h-auto lg:p-20">
         <div className="grid grid-cols-4  max-sm:grid-cols-2 gap-2">
           <div>
-            <img src="src/assets/Logo.svg " alt="" />
+            <img src="/Logo.svg " alt="" />
           </div>
           <div>
             <h1 className="text-[20px] ">Programs</h1>
