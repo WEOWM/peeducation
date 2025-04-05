@@ -295,7 +295,7 @@ const Home = () => {
 
       <section className="grid lg:grid-cols-2  max-sm:grid-cols-1 h-[57rem] px-3  max-sm:mt-72 md:mt-36 lg:mt-0 lg:px-10 poppins-semibold ">
         <div className="max-sm:order-2 md:order-2 lg:order-1">
-          <div>
+          <div className="max-sm:order-2">
             <p className="text-[18px] font-medium text-[#000000]">
               Our Services
               <p className="text-[#EA2029] flex text-[40px] max-sm:text-[24px] font-semibold leading-9">
@@ -307,7 +307,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className=" lg:mt-36 max-sm:mt-5 md:mt-8">
+          <div className=" lg:mt-36 max-sm:mt-5 md:mt-8 max-sm:order-2">
             <p className="text-[#EA2029] flex items-center text-[24px]">
               Expert Language Training
               <GoArrowUpRight className="ps-2 pt-1" size={35} />
@@ -489,7 +489,7 @@ const Home = () => {
       <footer className="bg-[#ED1F241F] lg:h-96 max-sm:h-auto lg:p-20">
         <div className="grid grid-cols-4  max-sm:grid-cols-2 gap-2">
           <div>
-            <img src="/Logo.svg " alt="" />
+            <img src="x`/Logo.svg " alt="" />
           </div>
           <div>
             <h1 className="text-[20px] ">Programs</h1>
