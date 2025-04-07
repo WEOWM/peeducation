@@ -13,12 +13,12 @@ import { FaFacebookF } from "react-icons/fa6";
 import { IoLogoInstagram } from "react-icons/io";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaRegCopyright } from "react-icons/fa";
+import Carosoul from "./components/swiper/Carosoul";
+import CarouselSection from "./components/CarouselSection";
 
 // data
 import { ourproject, TopUniversities } from "./Data";
-import Carosoul from "./components/swiper/Carosoul";
-import CarouselSection from "./components/CarouselSection";
-// import { FaPlus,  } from "react-icons/fa";
+
 
 const faqs = [
   { question: "How do I apply for a study abroad program?" },
@@ -27,9 +27,6 @@ const faqs = [
   { question: "How much does it cost to study abroad?" },
   { question: "Will I get support after I arrive?" },
 ];
-
-// images
-// import {logo} from '/public/Frame 90.png'
 
 const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -93,7 +90,7 @@ const Home = () => {
         <div className="w-full flex justify-center md:justify-end lg:items-start md:mt-20 lg:pe-20 max-sm:order-1 ">
           <img
             src="/unsplash_XkKCui44iM0.png"
-            className="lg:w-[600px] lg:h-[662px] md:w-[280px] md:h-[304px] object-cover rounded-[12px]"
+            className="lg:w-[600px] lg:h-[662px] md:w-[280px] md:h-[304px] object-cover rounded-[12px] -z-40"
             alt=""
           />
         </div>
@@ -420,7 +417,7 @@ const Home = () => {
       </section>
 
       <section className="grid lg:grid-cols-2 md:grid-cols-1 h-[37rem] px-3 max-sm:mt-1  lg:mt-0 lg:px-20 poppins-semibold ">
-        <div className="lg:sticky top-10 self-start ">
+        <div className="lg:sticky top-20 self-start ">
           <div>
             <p className="text-[40px] max-sm:text-[24px] font-semibold ">
               Have Questions?
@@ -474,7 +471,7 @@ const Home = () => {
           <p className="flex text-[40px]  max-sm:text-[20px]  font-semibold justify-center">
             Experience?
           </p>
-          <Button className="border bg-[#EA2029] border-[#EA2029] lg:ms-56 lg:mt-7 hover:bg-white text-white z-50">
+          <Button className="border bg-[#EA2029] border-[#EA2029] lg:ms-56 lg:mt-7 hover:bg-white text-white z-50 absolute hover:text-black">
             Book Conssultation
           </Button>
         </div>
@@ -489,7 +486,7 @@ const Home = () => {
       <footer className="bg-[#ED1F241F] lg:h-96 max-sm:h-auto lg:p-20">
         <div className="grid grid-cols-4  max-sm:grid-cols-2 gap-2">
           <div>
-            <img src="x`/Logo.svg " alt="" />
+            <img src="/Logo.svg " alt="" />
           </div>
           <div>
             <h1 className="text-[20px] ">Programs</h1>
